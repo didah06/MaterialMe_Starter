@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="363458889155333"
+    token="-1907828200196277424" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="360936109509243" >
+        <artifact
+            location="D:\mobile\MaterialMe-Starter\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="361323272665483"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="D:\mobile\MaterialMe-Starter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="362847806698668"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="D:\mobile\MaterialMe-Starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.5.2_0a5bceec4580fdf4a710469a3182dcb4e742ec9c\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="363405643081132"
+        verifier="FIELD_REMOVED" >
+        <artifact
+            location="D:\mobile\MaterialMe-Starter\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="D:\mobile\MaterialMe-Starter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="363458889155333" />
+
+</instant-run>
